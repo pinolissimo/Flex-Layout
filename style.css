@@ -43,7 +43,7 @@ aside {
   padding: 10px;
   margin-bottom: 5px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
 }
 aside ul li {
@@ -54,19 +54,20 @@ aside ul li {
 aside ul li img {
   width: 40px;
   border-radius: 50%;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 aside ul li img#youtubevideoflex,
 aside ul li img#tutorialpoint {
   width: 60px;
   border-radius: 5px;
-  margin-right: 5px;
+  margin-right: 10px;
 }
-aside ul li img#camaleo {
+aside ul li img#camaleo,
+aside ul li img#giphy
+ {
   width: 100%;
   border-radius: 5px;
-  margin-right: 5px;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 aside a {
