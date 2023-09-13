@@ -46,6 +46,13 @@ aside {
   justify-content: flex-start;
   flex-direction: column;
 }
+aside ul{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
 aside ul li {
   font-size: 24px;
   margin-bottom: 15px;
